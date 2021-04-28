@@ -50,3 +50,5 @@ UPDATE "Employees" SET "Salary" = 500 WHERE "JobPosition" = 'Cook';
 DELETE FROM "Employees"  WHERE "FullName" = 'Lazy Larry';
 
 ALTER TABLE "Employees" ADD COLUMN "ParkingSpot" VARCHAR(10);
+
+ALTER TABLE "Employees" ADD COLUMN "Id";
